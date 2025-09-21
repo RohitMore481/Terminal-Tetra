@@ -327,7 +327,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79.200005
+    y: 24
     width: 220.6
     height: 459.6
   m_SerializedDataModeController:
@@ -349,18 +349,18 @@ MonoBehaviour:
       m_ExpandedIDs: fafaffffd0e40000d4e40000e8e40000f4e40000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Terminal Panel
-        m_OriginalName: Terminal Panel
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 58600
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 9}
@@ -392,8 +392,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 221.6
-    y: 79.200005
+    x: 222.6
+    y: 24
     width: 931.6
     height: 459.6
   m_SerializedDataModeController:
@@ -980,7 +980,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 97.74876, y: 250.92986, z: -1.9289924}
     speed: 2
-    m_Value: {x: 122.398415, y: 239.92717, z: -1.7642564}
+    m_Value: {x: 97.74876, y: 250.92986, z: -1.9289924}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1032,7 +1032,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 382.5545
     speed: 2
-    m_Value: 366.08087
+    m_Value: 382.5545
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1088,7 +1088,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 564.8
+    y: 509.6
     width: 1154.2
     height: 205.19998
   m_SerializedDataModeController:
@@ -1132,7 +1132,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 88.39996}
     m_SelectedIDs: 0ae70000
     m_LastClickedID: 59146
-    m_ExpandedIDs: 0000000070e6000072e6000008e7000000ca9a3b
+    m_ExpandedIDs: 0000000066e6000068e60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1161,7 +1161,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000070e6000072e60000
+    m_ExpandedIDs: 0000000066e6000068e60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1298,8 +1298,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1155.2001
-    y: 79.200005
+    x: 1156.2
+    y: 24
     width: 379.80005
     height: 690.8
   m_SerializedDataModeController:

@@ -476,11 +476,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &626144513 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8187025592120048492, guid: 605e6bd0d2a200b4884f34fa8d010f63, type: 3}
-  m_PrefabInstance: {fileID: 3014098537489621300}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &626144514 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3553894169853669044, guid: 605e6bd0d2a200b4884f34fa8d010f63, type: 3}
@@ -856,11 +851,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RectMask2D
   m_Padding: {x: -8, y: -5, z: -8, w: -5}
   m_Softness: {x: 0, y: 0}
---- !u!1 &1533607076 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 466487037498446573, guid: 1af05f920b611a948a09907131c65b7d, type: 3}
-  m_PrefabInstance: {fileID: 637205178085261556}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1533607077 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 324224045606852630, guid: 1af05f920b611a948a09907131c65b7d, type: 3}
@@ -1260,7 +1250,7 @@ MonoBehaviour:
   m_Inertia: 1
   m_DecelerationRate: 0.135
   m_ScrollSensitivity: 50
-  m_Viewport: {fileID: 0}
+  m_Viewport: {fileID: 1873162486}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 0}
   m_HorizontalScrollbarVisibility: 0
@@ -1283,6 +1273,7 @@ GameObject:
   - component: {fileID: 2105510617}
   - component: {fileID: 2105510616}
   - component: {fileID: 2105510620}
+  - component: {fileID: 2105510621}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -1385,12 +1376,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14b5dc97948a1944a63f5fc3a2745d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TerminalManager
-  directoryLine: {fileID: 1533607076}
-  responseLine: {fileID: 626144513}
+  directoryLine: {fileID: 466487037498446573, guid: 1af05f920b611a948a09907131c65b7d, type: 3}
+  responseLine: {fileID: 8187025592120048492, guid: 605e6bd0d2a200b4884f34fa8d010f63, type: 3}
   terminalInput: {fileID: 1964029562}
   userInputLine: {fileID: 1079147475}
   sr: {fileID: 2012816801}
   msgList: {fileID: 1873162485}
+--- !u!114 &2105510621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105510615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 314d0f6a524f0044cb61982f36a302bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interpreter
 --- !u!1001 &637205178085261556
 PrefabInstance:
   m_ObjectHideFlags: 0
